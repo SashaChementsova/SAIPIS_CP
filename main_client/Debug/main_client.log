@@ -1,0 +1,4 @@
+﻿  main_server.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\Lenovo\Desktop\SAIPIS_CP\main_client\main_server.cpp(12,25): warning C4101: c3: неиспользованная локальная переменная
+  main_client.vcxproj -> C:\Users\Lenovo\Desktop\SAIPIS_CP\Debug\server.exe

@@ -1,0 +1,5 @@
+﻿  main_client.cpp
+C:\Users\Lenovo\Desktop\SAIPIS_CP\main_server\main_client.cpp(25,15): warning C4101: buf: неиспользованная локальная переменная
+C:\Users\Lenovo\Desktop\SAIPIS_CP\main_server\main_client.cpp(25,41): warning C4101: num: неиспользованная локальная переменная
+C:\Users\Lenovo\Desktop\SAIPIS_CP\main_server\main_client.cpp(14,30): warning C4101: t3: неиспользованная локальная переменная
+  main_server.vcxproj -> C:\Users\Lenovo\Desktop\SAIPIS_CP\Debug\client.exe
