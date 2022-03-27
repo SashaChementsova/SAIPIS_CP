@@ -10,7 +10,7 @@ using namespace std;
 
 void mailWorking(void* newS) {
 	int c, c1 = 0, c2 = 0, c3;
-	int flag = 0;
+	int flag = 0; 
 	char p[500], com[200], k[500], m[500];
 	com[0] = '\0'; p[0] = '\0'; k[0] = '\0'; m[0] = '\0';
 	cout << "Сервер работает.\n";
