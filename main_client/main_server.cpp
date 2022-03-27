@@ -8,7 +8,7 @@
 
 using namespace std;
 
-void mailWorking(void* newS) {
+void main_working(void* newS) {
 	int c, c1 = 0, c2 = 0, c3; 
 	int flag = 0; 
 	char p[500], com[200], k[500], m[500];
@@ -308,7 +308,7 @@ int main() {
 		sockaddr_in remote;
 		int j = sizeof(remote);
 		SOCKET newS = accept(s, (struct sockaddr*)&remote, &j);
-		_beginthread(mailWorking, 0, (void*)newS);  //создание потока(Начальный адрес процедуры, который начинает выполнение нового потока; размер стека нового потока или 0; список аргументов, передаваемый в новый поток, или NULL)
+		_beginthread(main_working, 0, (void*)newS);  //создание потока(Начальный адрес процедуры, который начинает выполнение нового потока; размер стека нового потока или 0; список аргументов, передаваемый в новый поток, или NULL)
 	}
 	WSACleanup();
 	return 0;
